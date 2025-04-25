@@ -1,0 +1,26 @@
+<nav>
+    <a href="index.html">Web Search</a> |
+    <a href="image-search.html">Image Search</a> |
+    <a href="advanced-search.html">Advanced Search</a>
+  </nav>
+  <hr>
+  
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Image Search</title>
+  </head>
+  <body>
+    <!-- include the same nav here -->
+    <h1>Google Image Search</h1>
+    <form action="https://www.google.com/search" method="GET">
+      <!-- tbm=isch tells Google “image mode” -->
+      <input type="hidden" name="tbm" value="isch">
+      <input type="text" name="q" placeholder="Search images…" required>
+      <button type="submit">Search Images</button>
+    </form>
+  </body>
+  </html>
+  
